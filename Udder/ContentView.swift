@@ -14,6 +14,7 @@ struct ContentView: View {
                 .font(.title)
             .padding()
             Image("I am poor").resizable().aspectRatio(1, contentMode: .fit)
+            Label(/*@START_MENU_TOKEN@*/"Label"/*@END_MENU_TOKEN@*/, systemImage: /*@START_MENU_TOKEN@*/"42.circle"/*@END_MENU_TOKEN@*/)
         }
         
     
